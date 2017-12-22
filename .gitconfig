@@ -1,0 +1,9 @@
+[user]
+	name = Rhodey Orbits
+	email = rhodey@anhonesteffort.org
+[core]
+	editor = vim
+[credential]
+	helper = store
+[push]
+	default = simple
