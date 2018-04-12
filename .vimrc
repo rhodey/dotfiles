@@ -33,6 +33,7 @@ set autoindent
 set smarttab
 set ruler
 set number
+set hlsearch
 
 
 " colors

@@ -7,8 +7,8 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 
-alias l='ls -lah'
-alias ll='ls -l'
+alias l='ls -lah -I ".*.swp"'
+alias ll='ls -lah'
 alias c='clear'
 alias :q='exit'
 alias :qt='tmux detach'
