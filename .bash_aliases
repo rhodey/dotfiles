@@ -14,7 +14,7 @@ alias :q='exit'
 alias :qt='tmux detach'
 
 alias untar='tar -zxvf'
-alias clip='xclip -sel clip < '
+alias xclip='xclip -selection clipboard'
 alias ports='sudo netstat -tulpn'
 
 alias gits='git status'
