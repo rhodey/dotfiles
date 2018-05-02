@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ln -s -f ~/dotfiles/.profile ~/.profile
-ln -s -f ~/dotfiles/.bashrc ~/.bashrc
-ln -s -f ~/dotfiles/.bash_aliases ~/.bash_aliases
-ln -s -f ~/dotfiles/.bash_exports ~/.bash_exports
+ln -s -f $(pwd)/.profile ~/.profile
+ln -s -f $(pwd)/.bashrc ~/.bashrc
+ln -s -f $(pwd)/.bash_aliases ~/.bash_aliases
+ln -s -f $(pwd)/.bash_exports ~/.bash_exports
 
-ln -s -f ~/dotfiles/.vimrc ~/.vimrc
-ln -s -f ~/dotfiles/.gitconfig ~/.gitconfig
-ln -s -f ~/dotfiles/.jshint ~/.jshint
-ln -s -f ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s -f $(pwd)/.vimrc ~/.vimrc
+ln -s -f $(pwd)/.gitconfig ~/.gitconfig
+ln -s -f $(pwd)/.jshint ~/.jshint
+ln -s -f $(pwd)/.tmux.conf ~/.tmux.conf
